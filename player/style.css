@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter&family=Poppins&display=swap');
+
+body,html{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: black;
+}
+.left-section {
+    position: fixed;
+    top: 0;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex: 0.1;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    flex-shrink: 0;
+}
+.spotify-logo{
+    width: 202.576px;
+    height: 60.526px;
+    flex-shrink: 0;
+    font-size: 20px;
+}
+.my-navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+    margin-left: 0;
+    text-align: left;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.my-navbar>h4{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.2000000476837158px;
+    text-align: left;
+}
+.my-navbar>a{
+    text-decoration: none;
+    overflow: hidden;
+    width: 300px;
+    height: 50px;
+    flex-shrink: 0;
+    color: white;
+    padding: 12px;
+    display: block;
+    float: left;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.14px;  
+}
+a:hover{
+    background-color: #282828;
+    color: #FFF;
+}
+.playlist-icon{
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    display: block;
+    float: left;
+}
+.my-navbar>a>img{
+    width: 29.645px;
+    height: 29.645px;
+    flex-shrink: 0;
+}
+.left-section>img{
+    margin-top: 150px;
+}
+.main{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    overflow: hidden;
+    flex: 0.9;
+    background: linear-gradient(180deg, #90AEA7 0%, #000 89.7%);
+    padding: 20px;
+    margin-left: 25%;
+    overflow-y: auto;
+    width: 75%;
+}
+.top-div{
+    width: 100%;
+    display: flex;
+}
+.top-div>div>p{
+    color: #FFF;
+    text-align: left;
+    margin-top: 20px;
+}
+.mid-div{
+    margin-top: 30px;
+    align-items: stretch;
+}
+.mid-div>img{
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+}
+.bottom-div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.heading>p{
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.32px;
+}
+.song-card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 54px;
+    padding: 10px;
+    flex-shrink: 0;
+    border: none;
+}
+.song-card:hover{
+    background-color: #212423;
+}
+.I-div{
+    display: flex;
+    justify-content: space-between;
+}
+.II-div, .III-div{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.IV-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.player{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+    background-color: black;
+    color: white;
+}
+.player-div-1{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.player-div-1-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.heart{
+    width: 21.589px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.player-div-1-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 400px 0 350px;
+}
+.player-timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.timer{
+    width: 511px;
+    height: 5px;
+    flex-shrink: 0;
+    background-color: #535353;
+}
+.timer>div{
+    width: 400px;
+    height: 100%;
+    background-color: #c4c4c4;
+}
+.player-div-1-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.player-div-2{
+    width: 100%;
+    height: 40px;
+}
